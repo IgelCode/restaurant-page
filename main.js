@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Fucking Webpack"),function(){const e=document.getElementById("content");let t=document.createElement("h1");t.className="h1",e.appendChild(t),t.textContent="Fucking Webpack"}()})();
