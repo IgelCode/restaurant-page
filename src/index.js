@@ -5,9 +5,6 @@ import { menupage } from "./functions/menupage.js";
 import { contactpage } from "./functions/contactpage.js";
 import { clearbody } from "./functions/clearbody.js";
 import "./style.css";
-import Menu from "./img/menu.jpg";
-import Home from "./img/home.jpg";
-import Logo from "./img/logo.png";
 
 pageLoad();
 
