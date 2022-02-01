@@ -8,7 +8,7 @@ function pageLoad() {
   body.appendChild(header);
 
   //Header Logo
-
+  console.log("logo");
   const logo = new Image();
   logo.src = Logo;
   logo.id = "logo";
