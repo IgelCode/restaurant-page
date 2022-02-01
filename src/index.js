@@ -1,5 +1,5 @@
 console.log("Fucking Webpack");
-
+import { Logo } from "./img/logo.png";
 import { pageLoad } from "./functions/pageload.js";
 import { menupage } from "./functions/menupage.js";
 import { contactpage } from "./functions/contactpage.js";

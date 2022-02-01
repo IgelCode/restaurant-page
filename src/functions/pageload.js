@@ -1,5 +1,4 @@
 function pageLoad() {
-  import { Logo } from "../src/img/logo.png";
   //Header creation
   const body = document.getElementById("body");
   const header = document.createElement("header");
@@ -8,9 +7,9 @@ function pageLoad() {
   body.appendChild(header);
 
   //Header Logo
-  console.log("logo");
-  const logo = new Image();
-  logo.src = Logo;
+
+  const logo = document.createElement("img");
+  logo.src = "../src/img/logo.png";
   logo.id = "logo";
   header.appendChild(logo);
 
