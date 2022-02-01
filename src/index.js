@@ -4,6 +4,7 @@ import { pageLoad } from "./functions/pageload.js";
 import { menupage } from "./functions/menupage.js";
 import { contactpage } from "./functions/contactpage.js";
 import { clearbody } from "./functions/clearbody.js";
+import { home } from "./functions/home.js";
 import "./style.css";
 
 pageLoad();
@@ -12,10 +13,10 @@ const homebtn = document.querySelector("#home");
 const menubtn = document.querySelector("#menu");
 const contactbtn = document.querySelector("#contact");
 
-homebtn.addEventListener("click", home);
-function home() {
+homebtn.addEventListener("click", homefunc);
+function homefunc() {
   clearbody();
-  pageLoad();
+  home();
 }
 
 menubtn.addEventListener("click", menu);
