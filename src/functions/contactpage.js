@@ -1,4 +1,4 @@
-function pageLoad() {
+function contactpage() {
   //Header creation
   const body = document.getElementById("body");
   const header = document.createElement("header");
@@ -36,11 +36,10 @@ function pageLoad() {
   const h = document.createElement("h1");
   h.className = "h1";
   content.appendChild(h);
-  h.textContent = "Welcome to our Restaurant";
+  h.textContent = "Do not contact us.";
   const p = document.createElement("p");
   content.appendChild(p);
-  p.textContent =
-    "We have the best wine to get you drunk as hell. You wont even remember paying the overpriced bill!";
+  p.textContent = "Really, just dont.";
 
   //footer creation
 
@@ -49,4 +48,4 @@ function pageLoad() {
   body.appendChild(footer);
   footer.textContent = "Copyright© 2022 by IgelCode";
 }
-export { pageLoad };
+export { contactpage };

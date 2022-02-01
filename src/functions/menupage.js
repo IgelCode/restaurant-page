@@ -1,4 +1,4 @@
-function pageLoad() {
+function menupage() {
   //Header creation
   const body = document.getElementById("body");
   const header = document.createElement("header");
@@ -36,11 +36,11 @@ function pageLoad() {
   const h = document.createElement("h1");
   h.className = "h1";
   content.appendChild(h);
-  h.textContent = "Welcome to our Restaurant";
+  h.textContent =
+    "You better order a few drinks before you wanna try this food.";
   const p = document.createElement("p");
   content.appendChild(p);
-  p.textContent =
-    "We have the best wine to get you drunk as hell. You wont even remember paying the overpriced bill!";
+  p.textContent = "Buy drink.";
 
   //footer creation
 
@@ -49,4 +49,4 @@ function pageLoad() {
   body.appendChild(footer);
   footer.textContent = "Copyright© 2022 by IgelCode";
 }
-export { pageLoad };
+export { menupage };
