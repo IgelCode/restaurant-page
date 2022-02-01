@@ -9,7 +9,7 @@ function pageLoad() {
   //Header Logo
 
   const logo = new Image();
-  logo.src = "../src/img/logo.png";
+  logo.src = "../img/logo.png";
   logo.id = "logo";
   header.appendChild(logo);
 
